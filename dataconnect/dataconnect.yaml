@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "interview-preparation-platform"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "interview-preparation-platform-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
