@@ -1,0 +1,15 @@
+{
+  "name": "interview-preparation-platform",
+  "version": "1.0.0",
+  "description": "A platform for interview preparation",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server && npm run client",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
